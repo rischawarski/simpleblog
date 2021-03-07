@@ -1,0 +1,27 @@
+<!-- This includ part of header -->
+<%- include ('../../parts/header') %>
+    <!-- This includ part of homevavbar -->
+    <%- include ('../../parts/nav') %>
+
+<div class="container">
+    <hr>
+    <div class="card mt-3">
+        <div class="card-header">
+            Criacao de ususario
+        </div>
+        <div class="card-body">
+            <form method="POST" action="/users/create">
+                <input type="text" name="email" class="form-control mb-3" placeholder="Seu melhor email ">
+                <input type="password" name="password" class="form-control mb-3" placeholder="************">
+                <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<%- include ('../../parts/footer') %>

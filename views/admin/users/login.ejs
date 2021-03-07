@@ -1,0 +1,25 @@
+<!-- This includ part of header -->
+<%- include ('../../parts/header') %>
+
+        <div class="container">
+            <hr>
+            <div class="card mt-3">
+                <div class="card-header">
+                    Login Admin
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="/authenticate">
+                        <input type="text" name="email" class="form-control mb-3" placeholder="Seu melhor email ">
+                        <input type="password" name="password" class="form-control mb-3" placeholder="************">
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Logar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <%- include ('../../parts/footer') %>
