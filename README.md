@@ -40,8 +40,13 @@ Simple Blog  uses a number of open source projects to work properly:
 
 Simple Blog requires [Node.js](https://nodejs.org/) v10+ to run.
 
+- open the folder database / database.js file and change the file variables to suit your mysql environment
+- go to the localhost:3000/admin/users/create
+- to create a user who will have access to the admin route.
+- localhost:3000/admin/articles
+- localhost:3000/admin/categories
 Install the dependencies and devDependencies and start the server.
-open the folder database / database.js file and change the file variables to suit your mysql environment
+
 
 ```sh
 cd simpleblog
@@ -60,6 +65,15 @@ Instructions on how to use them in your own application are at the link below.
 | Plugin | README |
 | ------ | ------ |
 | TinyMCE | [https://www.tiny.cloud/docs/][tinymce] 
+
+<img width="1439" alt="Captura de Tela 2021-03-07 às 11 46 55" src="https://user-images.githubusercontent.com/38566736/110243944-52918a80-7f3b-11eb-8c28-8e0ca943fb63.png">
+
+<img width="1438" alt="Captura de Tela 2021-03-07 às 11 49 01" src="https://user-images.githubusercontent.com/38566736/110243954-59b89880-7f3b-11eb-875c-aae5055d8baa.png">
+
+<img width="1440" alt="Captura de Tela 2021-03-07 às 11 49 13" src="https://user-images.githubusercontent.com/38566736/110243964-60471000-7f3b-11eb-85d8-dce24c0975e7.png">
+
+<img width="1438" alt="Captura de Tela 2021-03-07 às 11 49 43" src="https://user-images.githubusercontent.com/38566736/110243974-65a45a80-7f3b-11eb-856e-8d50c50ade73.png">
+
 
     
    [teach]:<https://www.udemy.com/user/victor-lima-67/>
